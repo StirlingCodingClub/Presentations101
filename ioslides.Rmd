@@ -1,0 +1,94 @@
+---
+title: "ioslides"
+author: "Jeroen Minderman"
+date: "28/10/2019"
+output:
+  ioslides_presentation:
+    widescreen: yes
+  slidy_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
+## An extra slide
+
+### You can use RMarkdown syntax to format text!
+  
+Like write in *italics*.  
+Or you **can make things bold**.  
+***Or even both***.  
+  
+It is also relatively easy to make your text <span style="color:red">colourful</span>.  
+Or include links: [like this one](http://www.stir.ac.uk).
+
+## This is a slide with smaller text! {.smaller}
+
+Itty bitty!
+
+Imagine was you removal raising gravity. Unsatiable understood or expression dissimilar so sufficient. Its party every heard and event gay. Advice he indeed things adieus in number so uneasy. To many four fact in he fail. My hung it quit next do of. It fifteen charmed by private savings it mr. Favourable cultivated alteration entreaties yet met sympathize.
+
+## Two Column Layout  {.columns-2}
+
+Imagine was you removal raising gravity. Unsatiable understood or expression dissimilar so sufficient. Its party every heard and event gay. Advice he indeed things adieus in number so uneasy. To many four fact in he fail. My hung it quit next do of. It fifteen charmed by private savings it mr. Favourable cultivated alteration entreaties yet met sympathize.
+  
+- Bullet 1  
+- Bullet 2  
+- Bullet 3  
+- Bullet 4  
+
+## Another possible two-column option
+
+<div style="float: left; width: 45%; padding: 5px;">
+This is on the left.  
+  
+Insipidity the sufficient discretion imprudence resolution sir him decisively. Proceed how any engaged visitor. Explained propriety off out perpetual his you. Feel sold off felt nay rose met you. We so entreaties cultivated astonished is. Was sister for few longer mrs sudden talent become. Done may bore quit evil old mile. If likely am of beauty tastes. 
+</div>
+
+<div style="float: right; width: 45%; padding: 5px;">
+And this is on the right.  
+
+Fat son how smiling mrs natural expense anxious friends. Boy scale enjoy ask abode fanny being son. As material in learning subjects so improved feelings. Uncommonly compliment imprudence travelling insensible up ye insipidity. To up painted delight winding as brandon.
+</div>
+
+## Some different options for including pictures
+
+![caption](https://live.staticflickr.com/71/217118881_af881f9f5f_c.jpg)
+
+## Make it a bit smaller?
+
+![caption](https://live.staticflickr.com/71/217118881_af881f9f5f_c.jpg){#id .class width=50%}
+
+## Image via R code, using Knitr's **include_graphics**  
+
+```{r, echo=FALSE, fig.cap="caption", out.width = '75%'}
+knitr::include_graphics("https://live.staticflickr.com/71/217118881_af881f9f5f_c.jpg")
+```
+
+##  
+
