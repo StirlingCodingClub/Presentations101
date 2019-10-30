@@ -1,0 +1,41 @@
+---
+title: "Some more Xaringan tests"
+subtitle: "some subtitle"
+author: "Jeroen Minderman (jeroen.minderman2@stir.ac.uk)"
+date: "<br><br><br><br><br><br><br>xx/xx/xxxx (<i>updated: `r format(Sys.Date(),'%d/%m/%y')`</i>)"
+output:
+  xaringan::moon_reader:
+    css: ["default", "metropolis_jm.css", "metropolis_jm-fonts.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      titleSlideClass: [top, left]
+---
+
+  
+  
+``` {r echo=FALSE}
+library(knitr)
+```
+
+---
+layout: true
+
+background-image: url(http://oxinova.net/wp-content/uploads/2016/12/professional-powerpoint-templates-i2wpubdd.jpg)
+background-size: cover
+---
+
+# Here is the first slide
+Content here.
+
+---
+
+# Here is a slide that starts a layout.
+More content here.
+
+---
+
+...
+
